@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#output,
+#inputs {
+  margin: 20px auto;
+  width: 400px;
+  text-align: center;
+}
+
+#output {
+  border: 2px solid #345995;
+  border-radius: 10px;
+  background-color: hsl(217, 48%, 79%);
+  height: 50px;
+  text-align: center;
+  font-size: 26px;
+  font-family: sans-serif;
+  line-height: 50px;
+}
+
+#inputs > button {
+  padding: 12px 26px;
+  border: 2px solid hsl(217, 48%, 39%);
+  background-color: hsl(217, 48%, 79%);
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#inputs > button:hover {
+  background-color: hsl(217, 48%, 59%);
+}
